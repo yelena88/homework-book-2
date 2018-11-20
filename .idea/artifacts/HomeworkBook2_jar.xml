@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="HomeworkBook2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HomeworkBook2_jar</output-path>
+    <root id="root">
+      <element id="archive" name="HomeworkBook2.jar">
+        <element id="module-output" name="HomeworkBook2" />
+      </element>
+    </root>
+  </artifact>
+</component>
