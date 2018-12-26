@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle.properties" />
+    <file url="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle_be_BY.properties" />
+    <file url="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle_en_En.properties" />
+    <file url="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle_ru_RU.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle.properties" />
+      <file value="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle_be_BY.properties" />
+      <file value="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle_en_En.properties" />
+      <file value="file://$PROJECT_DIR$/src/com/lena/hw/book2/ex5/messageBundle_ru_RU.properties" />
+      <base-name>messageBundle</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
