@@ -1,0 +1,24 @@
+Tue Nov 27 23:35:34 MSK 2018  Message : java.lang.ArithmeticException: / by zero
+com.lena.hw.book2.ex6.Test1.exceptionThrowing(Test1.java:10)
+com.lena.hw.book2.ex6.Ex6.main(Ex6.java:17)
+
+Tue Nov 27 23:35:34 MSK 2018  Message : java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+com.lena.hw.book2.ex6.Test2.exceptionThrowing(Test2.java:9)
+com.lena.hw.book2.ex6.Ex6.main(Ex6.java:18)
+
+Wed Nov 28 10:58:46 MSK 2018  Message : java.lang.ArithmeticException: / by zero
+com.lena.hw.book2.ex6.Test1.exceptionThrowing(Test1.java:10)
+com.lena.hw.book2.ex6.Ex6.main(Ex6.java:17)
+
+Wed Nov 28 10:58:46 MSK 2018  Message : java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+com.lena.hw.book2.ex6.Test2.exceptionThrowing(Test2.java:9)
+com.lena.hw.book2.ex6.Ex6.main(Ex6.java:18)
+
+Thu Dec 13 17:46:52 MSK 2018  Message : java.lang.ArithmeticException: / by zero
+com.lena.hw.book2.ex6.Test1.exceptionThrowing(Test1.java:10)
+com.lena.hw.book2.ex6.Ex6.main(Ex6.java:15)
+
+Thu Dec 13 17:46:52 MSK 2018  Message : java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+com.lena.hw.book2.ex6.Test2.exceptionThrowing(Test2.java:9)
+com.lena.hw.book2.ex6.Ex6.main(Ex6.java:16)
+
