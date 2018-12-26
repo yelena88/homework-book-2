@@ -13,7 +13,7 @@
         <number_of_doors>5</number_of_doors>
         <accessories>
             <Items radio="yes" air_conditioner="yes" cruise_control="yes"
-                   climate_control="yes" rear_parking_sensor="yes" cornering_lights="yes"/>
+                climate_control="yes" rear_parking_sensor="yes" cornering_lights="yes"/>
         </accessories>
     </car>
     <car>
@@ -30,8 +30,8 @@
         <number_of_doors>5</number_of_doors>
         <accessories>
             <Items radio="yes" air_conditioner="yes"
-                   cruise_control="yes" climate_control="yes"
-                   rear_parking_sensor="yes" cornering_lights="no"/>
+                     cruise_control="yes" climate_control="yes"
+                     rear_parking_sensor="yes" cornering_lights="no"/>
         </accessories>
     </car>
     <car>
@@ -47,8 +47,8 @@
         <number_of_doors>5</number_of_doors>
         <accessories>
             <Items radio="yes" air_conditioner="yes"
-                   cruise_control="yes" climate_control="yes"
-                   rear_parking_sensor="yes" cornering_lights="no"/>
+                     cruise_control="yes" climate_control="yes"
+                     rear_parking_sensor="yes" cornering_lights="no"/>
         </accessories>
     </car>
 </car_catalog>

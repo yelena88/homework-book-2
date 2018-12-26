@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<pointsList xmlns="http://www.it-academy.by"
-            xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-            xs:schemaLocation="http://www.it-academy.by pointsListSchema.xsd">
+<pointsList>
     <point unit="cm">
-        <x>2</x>
-        <y>3</y>
+        <x>2.9</x>
+        <y>3.2</y>
     </point>
     <point unit="mm">
         <x>10</x>
