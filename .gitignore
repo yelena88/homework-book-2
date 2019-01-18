@@ -1,7 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Java template
 # Compiled class file
-*.class
 
 # Log file
 *.log
@@ -31,3 +30,4 @@ out/
 /src/com/lena/hw/book2/ex9/
 /src/com/lena/hw/book2/ex10/
 /src/com/lena/hw/book2/ex11/
+/src/com/lena/hw/book2/ex12/
