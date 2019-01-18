@@ -1,0 +1,35 @@
+<?xml version ="1.0" encoding = "UTF-8" ?>
+<!--Задание8-->
+<!--Для xml, сделанного в предыдущем задании, -->
+<!--создайте DTD с жестко заданными значениями -->
+<!-- параметра units тега point -->
+<!--Использована внутренняя декларация DTD -->
+<!DOCTYPE pointsList [
+        <!ELEMENT pointsList (point*)>
+        <!ELEMENT point (x,y)>
+        <!ELEMENT x (#PCDATA)>
+        <!ELEMENT y (#PCDATA)>
+        <!ATTLIST point unit (mm|cm|px) #REQUIRED>
+        ]>
+<pointsList>
+    <point unit="cm">
+        <x>2.9</x>
+        <y>3.2</y>
+    </point>
+    <point unit="mm">
+        <x>10</x>
+        <y>15</y>
+    </point>
+    <point unit="px">
+        <x>200</x>
+        <y>300</y>
+    </point>
+    <point unit="mm">
+        <x>18</x>
+        <y>12</y>
+    </point>
+    <point unit="px">
+        <x>500</x>
+        <y>700</y>
+    </point>
+</pointsList>

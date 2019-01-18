@@ -1,0 +1,46 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+        <!--Для xml, сделанного в предыдущем задании, -->
+        <!--создайте DTD с жестко заданными значениями -->
+        <!-- параметра units тега point -->
+        <!--Использована внешняя декларация DTD -->
+        <!ELEMENT car_catalog (car+)>
+
+        <!ELEMENT car (year, make, model, color, engine,
+                numberOfDoors, accessories)>
+
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT make (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT color (#PCDATA)>
+        <!ELEMENT engine (Petrol | Diesel)>
+
+        <!ELEMENT Petrol (#PCDATA)>
+        <!ELEMENT Diesel (#PCDATA)>
+
+        <!ATTLIST Petrol numberOfCylinders CDATA #REQUIRED>
+        <!ATTLIST Petrol fuelSystem CDATA #REQUIRED>
+        <!ATTLIST Petrol transmissionType CDATA #REQUIRED>
+        <!ATTLIST Petrol numberOfGears CDATA #REQUIRED>
+        <!ATTLIST Petrol driveTrain CDATA #REQUIRED>
+        <!ATTLIST Petrol fuelTankCapacity CDATA #REQUIRED>
+        <!ATTLIST Petrol maximumSpeed CDATA #REQUIRED>
+
+        <!ATTLIST Diesel numberOfCylinders CDATA #REQUIRED>
+        <!ATTLIST Diesel fuelSystem CDATA #REQUIRED>
+        <!ATTLIST Diesel transmissionType CDATA #REQUIRED>
+        <!ATTLIST Diesel numberOfGears CDATA #REQUIRED>
+        <!ATTLIST Diesel driveTrain CDATA #REQUIRED>
+        <!ATTLIST Diesel fuelTankCapacity CDATA #REQUIRED>
+        <!ATTLIST Diesel maximumSpeed CDATA #REQUIRED>
+
+        <!ELEMENT numberOfDoors (#PCDATA)>
+        <!ELEMENT accessories (Items)>
+
+        <!ELEMENT Items (#PCDATA)>
+
+        <!ATTLIST Items radio CDATA #REQUIRED>
+        <!ATTLIST Items airConditioner CDATA #REQUIRED>
+        <!ATTLIST Items cruiseControl CDATA #REQUIRED>
+        <!ATTLIST Items climateControl CDATA #REQUIRED>
+        <!ATTLIST Items rearParkingSensor CDATA #REQUIRED>
+        <!ATTLIST Items corneringLights CDATA #REQUIRED>

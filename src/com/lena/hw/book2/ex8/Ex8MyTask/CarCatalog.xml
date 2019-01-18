@@ -1,0 +1,55 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<!DOCTYPE car_catalog SYSTEM "CarCatalog.dtd">
+<car_catalog>
+    <car>
+        <year>2014</year>
+        <make>BMV</make>
+        <model>X6</model>
+        <color>Black Sapphire (metallic)</color>
+        <engine>
+            <Petrol numberOfCylinders="6 cylinder" fuelSystem="TwinPower Turbo Inline"
+                    transmissionType="Automatic" numberOfGears="8 speed" driveTrain="4WD"
+                    fuelTankCapacity="85.0 liters" maximumSpeed="240 Kmph"/>
+        </engine>
+        <numberOfDoors>5</numberOfDoors>
+        <accessories>
+            <Items radio="yes" airConditioner="yes" cruiseControl="yes"
+                   climateControl="yes" rearParkingSensor="yes" corneringLights="yes"/>
+        </accessories>
+    </car>
+    <car>
+        <year>2016</year>
+        <make>Audi</make>
+        <model>Q7</model>
+        <color>Ice Silver</color>
+        <engine>
+            <Diesel numberOfCylinders="6 cylinder"
+                    fuelSystem="Common Rail Injection System And Turbocharging"
+                    transmissionType="Automatic" numberOfGears="8 speed" driveTrain="AWD"
+                    fuelTankCapacity="75.0 liters" maximumSpeed="234 Kmpl"/>
+        </engine>
+        <numberOfDoors>5</numberOfDoors>
+        <accessories>
+            <Items radio="yes" airConditioner="yes"
+                   cruiseControl="yes" climateControl="yes"
+                   rearParkingSensor="yes" corneringLights="no"/>
+        </accessories>
+    </car>
+    <car>
+        <year>2016</year>
+        <make>Land Rover</make>
+        <model>Range Rover Sport</model>
+        <color>Blue</color>
+        <engine>
+            <Petrol numberOfCylinders="6 cylinder" fuelSystem="3.0L V-Type Engine"
+                    transmissionType="Automatic" numberOfGears="8 speed" driveTrain="4WD"
+                    fuelTankCapacity="105.0 liters" maximumSpeed="210 Kmpl"/>
+        </engine>
+        <numberOfDoors>5</numberOfDoors>
+        <accessories>
+            <Items radio="yes" airConditioner="yes"
+                   cruiseControl="yes" climateControl="yes"
+                   rearParkingSensor="yes" corneringLights="no"/>
+        </accessories>
+    </car>
+</car_catalog>
